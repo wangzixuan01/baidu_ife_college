@@ -1,29 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>自适应</title>
     <link rel="stylesheet" href="css/task_5.css">
 </head>
 <body>
-<div id="left">
+<div class="header">
+    <div id="logo"><img src="baidu.gif" alt=""></div>
+    <ul id="link">
+        <li>导航链接一</li>
+        <li>导航链接二</li>
+        <li>导航链接三</li>
+        <li>导航链接四</li>
+    </ul>
+</div>
+<div class="left">
     <div class="article">
-      <h2>文章一级标题</h2>
-        <h3>文章二级标题</h3>
-        <p class="author">文章作者:</p><span>brianway</span>&nbsp;&nbsp;<p class="time">文章发表时间:</p><span>2017.11.5</span>
-        <p class="text">网上 Python 的爬虫教程很多，而自己的主语言是 Java，本着宣传 Java，以练促学的目的，我使用 Java 爬取了知乎 60 万用户信息， 主要想看看知乎上妹子多不多啊/是不是都是基佬啊，标配常青藤/年薪百万是不是真的啊，等等。</p>
-        <a href="http://ife.baidu.com/course/detail/id/90">这是一个到课程该任务的链接 http://ife.baidu.com/course/detail/id/90</a>
-        <p class="text">上面的作者名加了 span 标签，Python 加了 em 标签，第一个 Java 加了 strong 标签</p>
-        <img src="img.jpg" alt="">
-        <p class="text">这是图片后的段落这是图片后的段落这是图片后的段落
-            换了一行换了一行换了一行 换了一行换了一行换了一行</p>
-        <hr>
-        <p class="text">上面加了一条横线上面加了一条横线上面加了一条横线上面加了一条横线
-            引用一句话这是一个引用
-            引用一段话
-            这是一段引用，这是一段引用，这是一段引用</p>
-        <p class="text">地址</p><span>黑龙江大学</span>
+    <h1>文章一级标题</h1>
+    <h2>文章二级标题</h2>
+    <span>文章作者</span><span>文章发表时间</span>
+    <p>&nbsp;&nbsp;这是一个很长很长的段落，这是一个
+        这是一个很长很长的段落这是一个很长很长</br>的段落
+        这是一个很长很长的段落这是一个很长很长的段落这是
+        一个很长很长的段落这是一个很</br>长很长的段落这是一个
+        很长很这是一个很长很长的段落长的段落这
+        是一个很长很长的段落这是一个很长很长的段
+        落很长很长的段落这是一个很长很长的段落</br>
+        <img src="img.jpg" alt="" style="width: 60%;height: 100%"></br>
+        很长很这是一个很长很长的段落长的段落这
+        是一个很长很长的段落这是一个很长很长的段
+        落很长很长的段落这是一个很长很长的段落
+        <a href="http://ife.baidu.com">链接到百度前端技术学院</a>
+        很长很长的段落这是一个很长很长的段很长很长的段落
+        这是一个很长很长的段。</p>
     </div>
+</div>
+<div class="center"></div>
+<div class="formRight">
+    <div class="vertical"></div>
+    <h1>这里以后是一个侧栏，这是侧栏的标题</h1>
+    <form action="">
+        <label for="">请输入邮箱地址:<input type="email" value="这是一个文本输入框"></label>
+    </form>
 </div>
 </body>
 </html>
